@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOURAL EVENT</title>
+    <style>
+
+        @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+        body {
+            display: flex;
+            justify-content: center;
+            font-family: "Nunito", sans-serif;
+            background-color: rgb(195, 172, 143);
+            background-image: linear-gradient(0deg, rgba(51, 46, 46, 0.403), rgba(98, 18, 237, 0.632)), url('1574404527phpztLLXn.jpeg');
+            background-size: cover;
+
+        }
+
+        .form-container {
+            margin: 3rem;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        table,
+        tr,
+        td {
+            border: 2px solid black;
+            padding: 1rem;
+            background-image: linear-gradient(0deg, rgba(90, 83, 83, 0.403), rgba(108, 111, 98, 0.552));
+        }
+
+        h2 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h1 style="text-align:center;">The Spoural 2023</h1>
+        <form action="login.html" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name : </label>
+                    </td>
+                    <td>
+                        <input type="text" name="text-name" placeholder="Full Name"
+                            style="background-color: rgb(255, 255, 253);" />
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="College ID">College ID : </label>
+                    </td>
+                    <td>
+                        <input type="text" name="text-name" placeholder=" Ex-21it0xx" />
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="age">Age : </label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Age in number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender : </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" />
+                        Male
+                        <input type="radio" name="gender" />
+                        Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contact">Contact No. : </label>
+                    </td>
+                    <td>
+                        <input type="number" name="contact" placeholder="+91 xxxxxxxxxx" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="yourname@gmail.com" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="City">City : </label>
+                    </td>
+                    <td>
+                        <select name="city" id="">
+                            <option value="surat" style="margin: 10px">Surat</option>
+                            <option value="Vadodara" style="margin: 10px">Vadodara</option>
+                            <option value="Ahemedabad" style="margin: 10px">Ahemedabad</option>
+                            <option value="Nadiad" style="margin: 10px">Nadiad</option>
+                            <option value="anand" style="margin: 10px">Anand</option>
+                            <br />
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Semester">Semester : </label>
+                    </td>
+                    <td>
+                        <select name="city" id="">
+                            <option value="1" style="margin: 10px">1</option>
+                            <option value="2" style="margin: 10px">2</option>
+                            <option value="3" style="margin: 10px">3</option>
+                            <option value="4" style="margin: 10px">4</option>
+                            <br />
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Sports" style="padding-top: 100%;">Sports</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Cricket" />Cricket <br>
+                        <input type="checkbox" name="Volleyball" />Volleyball<br>
+                        <input type="checkbox" name="Basketball" />Basketball<br>
+                        <input type="checkbox" name="Football" />Football<br>
+                        <input type="checkbox" name="Kabaddi" />Kabaddi<br>
+                        <input type="checkbox" name="Chess" />Chess<br>
+                        <input type="checkbox" name="Table tannis" />Table tannis<br>
+                        <input type="checkbox" name="Tug of war" />Tug of war<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Travel">Travelling from : </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Travel" />
+                        Hostel/Near by area
+                        <input type="radio" name="Travel" />
+                        Updown
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Register" />
+                    </td>
+                    <td>
+                        <input type="reset" value="Clear Form" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
