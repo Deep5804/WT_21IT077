@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <title> Spoural Form</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+    body {
+        display: flex;
+        justify-content: center;
+        font-family: "Nunito", sans-serif;
+     
+        background-image: linear-gradient(0deg,rgba(241, 233, 233, 0.348),rgba(240, 236, 236, 0.288)),url('charu.jpg');
+        background-size: cover;   
+    }
+
+
+    .form-container {
+        margin: 3rem;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    table,
+    tr,
+    td {
+        border: 2px solid black ;
+        padding: 1rem;
+        background-color: antiquewhite;
+    }
+
+    h2 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+</style>
+
+<body>
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form action="login.html" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="name">Name : </label>
+                    </td>
+                    <td>
+                        <input type="text" name="text-name" placeholder="Full Name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Age : </label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="Age in number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contact">Contact No. : </label>
+                    </td>
+                    <td>
+                        <input type="number" name="contact" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender : </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" />
+                        Male
+                        <input type="radio" name="gender" />
+                        Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="yourname@gmail.com" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password : </label>
+                    </td>
+                    <td>
+                        <input type="password" name="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">City : </label>
+                    </td>
+                    <td>
+                        <select name="city" id="">
+                            <option value="surat" style="margin: 10px">Surat</option>
+                            <option value="bardoli" style="margin: 10px">Bardoli</option>
+                            <option value="mumbai" style="margin: 10px">Mumbai</option>
+                            <option value="banglore" style="margin: 10px">Banglore</option>
+                            <br />
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="Address" Web Designing (CE1009) Enrollment No:202102100410068 id="Address"
+                            cols="20" rows="5" placeholder="Enter Address"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobbies">Hobbies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Dance" />Dance<input type="checkbox" name="Music" />Music<input
+                            type="checkbox" name="Coding" />Coding
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Register" />
+                    </td>
+                    <td>
+                        <input type="reset" value="Clear Form" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
